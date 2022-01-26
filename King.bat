@@ -153,9 +153,9 @@ goto calculator
 cls
 echo Addition
 echo.
-set /p no1="Zahl 1. "
+set /p no1="First Number:  "
 echo       +
-set /p no2="Zahl 2. "
+set /p no2="Second Number: "
 set /a sum=no1+no2
 echo ------------
 echo %sum%
@@ -169,9 +169,9 @@ goto calculator
 cls
 echo Subtraction
 echo.
-set /p no1="Zahl 1. "
+set /p no1="First Number:  "
 echo       -
-set /p no2="Zahl 2. "
+set /p no2="Second Number: "
 set /a sum=no1-no2
 echo ------------
 echo %sum%
@@ -185,9 +185,9 @@ goto calculator
 cls
 echo Division
 echo.
-set /p no1="Zahl 1. "
+set /p no1="First Number:  "
 echo       /
-set /p no2="Zahl 2. "
+set /p no2="Second Number: "
 set /a sum=no1/no2
 echo ------------
 echo %sum%
@@ -201,9 +201,9 @@ goto calculator
 cls
 echo Multipication
 echo.
-set /p no1="Zahl 1. "
+set /p no1="First Number:  "
 echo       *
-set /p no2="Zahl 2. "
+set /p no2="Second Number: "
 set /a sum=no1*no2
 echo ------------
 echo %sum%
