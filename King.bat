@@ -60,6 +60,7 @@ echo 2. Truth about M24
 echo 3. Truth about D26
 echo 4. Information
 echo 5. Calculator
+echo 6. Dede
 echo.
 
 set /p optionInput= Type in your option number.
@@ -68,6 +69,7 @@ if %optionInput%==2 goto :optionTwo
 if %optionInput%==3 goto :optionThree
 if %optionInput%==4 goto :optionFour
 if %optionInput%==5 goto :calculator
+if %optionInput%==6 goto :optionDede
 if %optionInput%==9 goto :secretOption
 echo.
 cls
@@ -110,6 +112,17 @@ echo The truth about D26
 echo.
 echo D26's level of stupidness is over 9000 and the rocks he collected
 echo. are stolen from my close friend Barack Obama
+pause
+cls
+goto menu
+:optionDede
+cls
+echo The Truth about Dede
+echo.
+echo Dede has been secretly training to surprass *ZTrunks in
+echo the fighting game "Super Smash Flash 2"! This shows how trash he is
+echo.
+echo *ZTrunks vs Itachison stats: 57 - idk 3 lmao ratio
 pause
 cls
 goto menu
