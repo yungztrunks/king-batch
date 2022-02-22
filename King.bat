@@ -254,6 +254,14 @@ echo like a KING in his Porsche!
 TIMEOUT /NOBREAK /T 6 >nul
 goto menu
 
+:redirectPrison
+cls
+echo lmao you got owned
+echo RATIO
+TIMEOUT /NOBREAK /T 6 >nul
+goto menu
+
+
 :secretOption
 cls
 echo Yo yo yo yungztr here
@@ -268,4 +276,4 @@ echo.
 pause
 cls
 %count%==0
-goto password
+goto redirectPrison
