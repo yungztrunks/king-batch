@@ -60,10 +60,10 @@ echo 2. Truth about M24
 echo 3. Truth about D26
 echo 4. Information
 echo 5. Calculator
-echo 6. Dede
+echo 6. King Dede
 echo.
 
-set /p optionInput= Type in your option number.
+set /p optionInput= Type in your option number and then press Enter.
 if %optionInput%==1 goto :optionOne
 if %optionInput%==2 goto :optionTwo
 if %optionInput%==3 goto :optionThree
